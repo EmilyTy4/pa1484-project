@@ -43,6 +43,7 @@ class Application:
 
         self.tile1_label = lv.label(self.tile1)
         self.tile1_label.set_text("Hello Students")
+        self.tile1_label.set_text("Hi there")
         self.tile1_label.set_style_text_font(lv.font_montserrat_28, 0)
         self.tile1_label.center()
         self.apply_tile_colors(self.tile1, self.tile1_label, False)
