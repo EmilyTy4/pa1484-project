@@ -42,7 +42,6 @@ class Application:
         self.tile2 = self.tileview.add_tile(1, 0, lv.DIR.LEFT)
 
         self.tile1_label = lv.label(self.tile1)
-        self.tile1_label.set_text("Hello Students")
         self.tile1_label.set_text("Hi there")
         self.tile1_label.set_style_text_font(lv.font_montserrat_28, 0)
         self.tile1_label.center()
